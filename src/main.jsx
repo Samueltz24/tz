@@ -6,7 +6,7 @@ import Home from './assets/pages/Home.jsx'
 import Contato from './assets/pages/Contato.jsx'
 import Erro from './assets/pages/Erro.jsx'
 import Youtube from './assets/Youtube.jsx'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 
 
 //const router = createBrowserRouter([
@@ -20,28 +20,20 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 //},
 //])
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
-    element: <App/>,
-    // pagina de erro 
-    errorElement : <Erro/>,
+    element: <App />,
+    errorElement: <Erro />,
     children: [
-      {
-        path: '/',
-        element : <Home/>
-      },
-      {
-        path: 'contato',
-        element : <Contato/>,
-      }
-      ,{
-        path: 'youtube',
-        element: <Youtube/>
-      }
+      { path: '/', element: <Home /> },
+      { path: 'contato', element: <Contato /> },
+      { path: 'youtube', element: <Youtube /> },
     ],
   },
 ])
+
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
