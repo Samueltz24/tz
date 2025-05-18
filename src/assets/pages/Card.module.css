@@ -1,0 +1,38 @@
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 3%;
+}
+.para{
+    border-bottom: 1px solid #000;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 2px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+.filho{
+    width: 30%;
+    margin-left: 1%;
+    border: 1px solid #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: blue;
+    padding: 5px 0;
+}
+.imag{
+    width: 100%;
+    border-radius: 10px;
+}
+.cor{
+    width: 100%;
+    padding: 10px;
+    background: red;
+    border: 1px solid red;
+    cursor: pointer;
+    color: #fff;
+    font-size: 21px;
+    border-radius: 10px;
+}

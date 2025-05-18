@@ -1,0 +1,55 @@
+.oi{
+    padding: 10px;
+    background: red
+    
+}
+.se{
+    flex: 30%;
+    margin-left: 10px;
+    color:#fff;
+    font-size:20px;
+    display: block;
+    margin-top: 10px;
+    background: blue;
+    width: 100px;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 5px 10px;
+}
+.button{
+    cursor: pointer;
+    border: none;
+}
+.separa{
+    display: flex;
+    flex-wrap: wrap;
+}
+.marge{
+    display: flex;
+    margin: 0 5%;
+    flex-wrap: wrap;
+    border: 1px solid #000;
+    background-color: blue;
+    padding: 50px 0;
+    margin-top: 250px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+.sem{
+    flex: 100%;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+.fale{
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 25px;
+    background: red;
+    border: 1px solid red;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.fale:hover{
+    background: lawngreen;
+}
